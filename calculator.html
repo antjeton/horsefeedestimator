@@ -1,0 +1,112 @@
+<!Doctype html>
+<html>
+ <head>
+   <title>horsefeedcalculator</title>
+
+
+
+
+   <link href="resources/style.css"type="text/css" rel="stylesheet">
+   <meta name="viewport"content="width=width-decice,initial-scale=1.0">
+
+ </head>
+  <body>
+ <header>
+
+
+    <div class="banner">
+
+         <div class="banner-image">
+           <img src="./resources/images/carrot.jpg" alt="camp">
+         </div>
+         <div class="apptitle">
+           <h1> Horse Feed cost and amount calculator</h1>
+         </div>
+
+    </div>
+
+</header>
+<br>
+
+
+
+  <!--infosection-->
+  <form>
+  <div class ="infocontainer">
+
+  <div=class "info">
+     Please enter the number of Horses to feed  :
+  <input type="number" id="horses" /><br>
+
+          Enter amount of grain fed per horse daily  :
+  <input type="number" id="grain"/><br>
+
+       Average amount of dollars per bale of hay:
+  <input type="number" id="baleprice"/><br>
+
+       Average amount of dollars per bag of feed:
+  <input type="number" id="bagprice"/><br><br><br>
+</div>
+
+</div>
+
+<h2>Daily amounts of feed and hay </h2>
+
+<input type = "button" onclick ="day()" value = "daily bales of hay"/>
+<input type="text" id="answer" size="20px"/><br>
+<input type = "button" onclick ="sweetfeed()" value = "daily pounds of grain"/>
+<input type="text" id="answerfour" size="20px"/><br>
+
+<h2>Cost</h2>
+<input type = "button" onclick ="balecost()" value = "daily cost of hay"/>
+<input type="text" id="answerseven" size="20px"/><br>
+<input type = "button" onclick ="feedcost()" value = "daily cost of feed"/>
+<input type="text" id="answerten" size="20px"/><br>
+<input type = "button" onclick ="totalfeedcostday()" value = "daily totalcost of feed and hay"/>
+<input type="text" id="answerthirteen" size="20px"/><br><br>
+
+<h2>Monthly amounts of feed and hay </h2>
+
+<input type = "button" onclick ="month()" value = "monthly bales of hay"/>
+<input type="text" id="answertwo" size="20px"/><br>
+<input type = "button" onclick ="monthfeed()" value = "monthly pounds of grain"/>
+<input type="text" id="answerfive" size="20px"/><br>
+
+<h2>Cost</h2>
+<input type = "button" onclick ="balecostmonth()" value = "monthly cost of hay"/>
+<input type="text" id="answereight" size="20px"/><br>
+<input type = "button" onclick ="feedcostmonth()" value = "monthly cost of feed"/>
+<input type="text" id="answereleven" size="20px"/><br>
+<input type = "button" onclick ="totalfeedcostmonth()" value = "monthly totalcost of feed and hay"/>
+<input type="text" id="answerfourteen" size="20px"/><br><br>
+
+
+<h2>yearly amounts</h2>
+
+  <input type = "button" onclick ="year()" value = "yearly bales of hay"/>
+  <input type="text" id="answerthree" size="20px"/><br>
+  <input type = "button" onclick ="yearfeed()" value = "yearly pounds of grain"/>
+  <input type="text" id="answersix" size="20px"/><br>
+
+  <h2>Cost</h2>
+  <input type = "button" onclick ="balecostyear()" value = "yearly cost of hay"/>
+  <input type="text" id="answernine" size="20px"/><br>
+  <input type = "button" onclick ="feedcostyear()" value = "yearly cost of feed"/>
+  <input type="text" id="answertwelve" size="20px"/><br>
+  <input type = "button" onclick ="totalfeedcostyear()" value = "yearly totalcost of feed and hay"/>
+  <input type="text" id="answerfifteen" size="20px"/><br>
+
+
+
+
+
+
+
+</form>
+
+
+
+
+<script src= "calculator.js"> </script>
+</body>
+</html>

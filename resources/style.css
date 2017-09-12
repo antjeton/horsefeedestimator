@@ -1,0 +1,40 @@
+body{
+  background-color:yellow;}
+
+
+header{
+  display:flex;
+
+
+  background-color: blue;
+  height:100px;
+}
+.banner{
+  display:inline-flex;
+  justify-content:flex-start ;
+ align-content: space-between;
+
+  height:200px;
+  width:100%;
+}
+.banner img{
+    margin-left: 20px;
+    height:100px;
+    width:100px;
+}
+.apptitle{
+  font-size:20px;
+
+
+}
+.infocontainer{
+  display:flex;
+margin-left: 300px;
+
+}
+.info{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items: center;
+}
